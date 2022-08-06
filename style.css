@@ -1,0 +1,252 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navtabs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    z-index: -1;
+    overflow: hidden;
+    height: 100px;
+    
+
+}
+.header{
+    display: flex;
+    margin-left: 3%;
+
+}
+.navtabs h1{
+    color: white;
+  
+    margin-left: 5px;
+    margin-top: 3.5%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navtabs a{
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navt{
+    margin-left: 57%;
+}
+.navtabs sup{
+   font-size: small;
+   color: #ababab;
+}
+.logo sup{
+    font-size: small;
+   color: #ababab;
+}
+.navtabs img{
+    margin-left: 4%;
+   
+}
+.section-1{
+    display: flex;
+    padding: 8%;
+    background-color: #171111;
+    overflow: hidden;
+    
+}
+.mobile{
+    display: none;
+}
+.block{
+    display: flex;
+    width: 728px;
+    height: 584px;
+}
+.text{
+    color: white;
+    padding-left: 20%;
+    padding-top: 20%;
+    padding-right: 4%;
+    align-items: center;
+    margin-bottom: 0;
+    
+}
+.text h2{
+    line-height: 2.5rem;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.form
+{
+    margin-left: 4.1%;
+    background-color: #ffffff;
+    width: 370px;
+    height: 380px;
+   border-radius: 5px;
+    padding: 3%;
+}
+::placeholder{
+  font-size: 0.7rem;
+}
+
+
+#box
+{
+    width: 48vh;
+    height: 5vh;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.divbox
+{
+    padding-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descript-01 p{
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 9.5px;
+    font-weight: bold;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descript-01 a{
+    text-decoration: underline;
+    color: #26d769;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descript-02 p{
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9.5px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descript-02 a{
+    text-decoration: underline;
+    color: #26d769;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.descript-02 h6{
+    padding-top: 3%;
+    padding-left: 33%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.descript-01 a:hover{
+    color: red;
+    cursor: pointer;
+}
+.descript-02 a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.Signup a{
+    color: black;
+    text-decoration: none;
+    font-weight: 750;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.Signup a:hover{
+   color: white;
+    cursor: pointer;
+}
+.Signup{
+    
+   margin-left: 25px;
+   margin-top: 30px;
+    width: 310px;
+    padding-left: 8px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #26d769;
+    background-color: #26d769;
+    font-weight:bolder;
+}
+.Signup:hover{
+    color:white;
+    cursor: pointer;
+    
+}
+
+.section-2{
+    display: flex;
+    background-color: #000000;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.logo{
+    display: flex;
+    color: white;
+    padding-left: 11%;
+    padding-right: 22%;
+    padding-top: 46px;
+}
+.logo h1{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.head h2{
+    padding-left: 10%;
+    color: #ababab;
+    font-weight:lighter ;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.headsec h3{
+    color: white;
+    line-height:2.5rem;
+    padding-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.head-1 h2{
+    padding-top: 48px;
+    padding-left: 168px;
+    font-weight:lighter ;
+    color: #ababab;
+    padding-bottom: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.headsec-1 h3{
+    color: white;
+    line-height:2.5rem;
+    padding-left: 168px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.navtabs a:hover{
+    color: #26d769;
+}
+.section-2 a:hover{
+  cursor: pointer;
+  
+}
+.company{
+    margin-left: 3%;
+}
+.useful-links{
+    margin-left: 5%;
+}
+

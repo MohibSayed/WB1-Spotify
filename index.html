@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1024px) " href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="phone.css">
+    <title>Spotify</title>
+</head>
+<body>
+    
+   
+    <div class="navtabs">
+        <div class="header">
+            <img src="download.png" alt="" width="50" height="50">
+            <h1>Spotify<sup>&reg;</sup></h1>
+        </div>
+      <div class="navt">
+        <a href="#" class="nav-link">Premium</a>
+        <a href="#" class="nav-link">Support</a>
+        <a href="#" class="nav-link">Download</a>
+     </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+    
+    </div>
+   
+    <div class="section-1">
+        <div class="block">
+            <div class="screen">
+                <img src="Image_01.png" alt="" width="230" height="430">
+            </div>
+            <div class="text">
+                <h2>Your music.</h2>
+                <h2>Your podcasts.</h2>
+                <h2>Your Home.</h2>
+            </div>
+        </div>
+        <div class="mobile">
+            <button class="Signup"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="form">
+            <div class="divbox">
+                <h5>What should we call you?</h5>
+                <input type="text" placeholder="  Enter a profile name" id="box">
+            </div>
+            <div class="divbox">
+                <h5>Email address<address></address></h5>
+                <input type="email" placeholder="  Enter your email address" id="box">
+            </div>
+            <div class="divbox">
+                <h5>Create password</h5>
+                <input type="text" placeholder="  Create a password" id="box">
+            </div>
+            <div class="descript-01">
+                <p>By clicking on sign-up, you agree to Spotify's <a>Terms and Conditions of Use.</a></p>
+            </div>
+            <div class="descript-02">
+                <p>To learn more about how Spotify collects, uses, shares and protects your personal data, please see <a>Spotify's
+                    Privacy Policy</a></p>
+                    <button class="Signup"><a href="#">Sign Up</a></button>
+                    <h6 style="margin-top: 10px;">Have an account? <a>Log in</a></h6>
+            </div>
+        </div>
+    </div> 
+    <div class="section-2">
+        <div class="logo">
+            <img src="download.png" alt="" width="50" height="50">
+            <h1>Spotify<sup>&reg;</sup></h1>
+        </div>
+        <div class="company">
+           <div class="head">
+             <h2>COMPANY</h2>
+           </div>
+           <div class="headsec">
+            <a><h3>About</h3></a>
+            <a><h3>Jobs</h3></a>
+            <a><h3>For the records</h3></a>
+           </div>  
+        </div>
+        <div class="useful-links">
+            <div class="head-1">
+                <h2>USEFUL LINKS</h2>
+            </div>
+           <div class="headsec-1">
+            <a><h3>Support</h3>
+            <a><h3>Web Player</h3>
+            <a><h3>Free Mobile App</h3>
+        </div>
+        </div>
+    </div>
+
+    <script>
+        const hamburger= document.querySelector(".hamburger");
+        const navmenu= document.querySelector(".navt");
+        
+        hamburger.addEventListener("click",()=>{
+            hamburger.classList.toggle("active");
+            navmenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".nav-link").forEach(n=> n.addEventListener("click",()=>{
+            hamburger.classList.remove("active");
+            navmenu.classList.remove("active");
+        }))
+        </script>
+</body>
+</html>

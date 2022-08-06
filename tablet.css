@@ -1,0 +1,137 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.navtabs{
+    width: 1024px;
+}
+.block{
+    width: 1024px;
+    margin-left: 60px;
+    height:500px ;
+   
+}
+.navtabs a:hover{
+    color: #26d769;
+}
+.section-1{
+   display: block; 
+   justify-content: center;
+   align-items: center;
+}
+.screen img{
+    height: 80vh;
+}
+.mobile{
+    display: none;
+}
+.form{
+    width: 70vh;
+    height: 65vh;
+    margin-left: 240px; 
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+.divbox h5{
+    margin-left: 2%;
+}
+#box{
+    width: 67vh;
+    
+    margin-left: 2%;
+}
+.logo{
+    padding-left: 6%;
+    padding-right: 11%;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+}
+.logo h1{
+    font-size:  2rem;
+}
+.head h2{
+    margin-top: 8px;
+    padding-left: 4%;
+    margin-right: 2%;
+}
+.head-1 h2{
+   margin-top: 8px;
+    padding-left: 50px;
+}
+.headsec-1 h3{
+    padding-left: 50px ;
+}
+.company{
+    margin-left: 7%;
+}
+.useful-links{
+    margin-left: 12%;
+}
+.Signup{
+    
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 350px;
+    padding-left: 8px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #26d769;
+    background-color: #26d769;
+    font-weight:bolder;
+ }
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger:focus{
+    outline: none;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navt{
+    display: flex;
+        position: absolute;
+        left: -100%;
+        top: 63px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #211b1b;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        color: white;
+    }
+    .navt{
+        margin: 16px 0;
+    }
+    .navt.active{
+        left: 0;
+        color: #26d769;
+    }

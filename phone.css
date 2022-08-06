@@ -1,0 +1,120 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+     
+}
+.header{
+    display: flex;
+    flex: 1;
+}
+
+.navtabs{
+   display: flex;
+   flex: 1;
+    width: 100%;
+}
+.navtabs h1{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-right: 12vw;
+}
+.hamburger{
+    margin-right: 10vw;
+}
+.navtabs img{
+    width: 40px;
+    height: 40px;
+    margin-left: 7%;
+}
+.section-1{
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  padding: 0;
+    
+}
+.block{
+    display: flex;
+    flex: 1;
+    width:100%;
+    margin-top: 20%;
+    margin-left: 3%;
+    height: 58vh;
+}
+.screen img{
+    width: 40vw;
+    height: 38vh;
+    margin-left: 8vw;
+}
+.text{
+   padding-top: 30%; 
+    padding-left: 8%;
+    padding-bottom: 0;
+}
+.text h2{
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+.screen{
+    height: 7vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.form{
+    display: none;
+}
+.mobile{
+    display: block;
+    width: 4vw;
+    margin-left: 12vw;
+    margin-bottom: 28%;
+}
+.mobile button{
+    margin-top: 0;
+    padding-top: 0;
+    width: 65vw;
+}
+.section-2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+   
+    flex-direction: column;
+}
+.navtabs a:hover{
+    color: #26d769;
+}
+.logo{
+    margin-left: 4vw;
+}
+.company{
+    margin-left: 8vw;
+}
+.useful-links{
+    padding: 0;
+    margin-left: 8vw;
+    height: 50vh;
+}
+.head h2{
+    padding-left: 0;
+    margin-left: 4%;
+}
+.headsec h3{
+    padding-left: 0;
+    margin-left: 4%;
+}
+.head-1 h2{
+    padding-left: 0;
+    margin-left: 4%;
+}
+
+.headsec-1 h3{
+    padding-left: 0;
+    margin-left: 4%;
+}
+
